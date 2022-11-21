@@ -2,7 +2,7 @@
 upstream = "https://github.com/miekg/blah-origin"  # repository where to download from
 mount = "/tmp"                                     # directory where to download to, mount+service is used as path
 
-[[keys]
+[[keys]]
 path = "keys/id_ed25519_gitopper.pub"
 
 [[services]]
